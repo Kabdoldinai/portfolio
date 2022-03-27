@@ -1,6 +1,6 @@
 import React from "react";
 import {Navbar} from "../MainPage/MainPage.style";
-import {Wrapper, Content, Line, Description, Experience, Jobs, Menu} from "../Resume/Resume.style";
+import {Wrapper, Content, Line, Description, Experience, Jobs, Menu, Ml} from "../Resume/Resume.style";
 import {Link} from "react-router-dom";
 import kaspi from "../../assets/kaspi.svg"
 import cube from "../../assets/Cube.svg"
@@ -141,11 +141,11 @@ export default function Resume() {
                         <div className="block">
                             <div className="university"><span>Languages</span></div>
                             <div className="skills">
-                                <div>
+                                <Ml>
                                     <p>- JavaScript</p>
                                     <p>- HTML5 </p>
                                     <p>- CSS3 </p>
-                                </div>
+                                </Ml>
                                 <div className="description">
                                     <p>- TypeScript</p>
                                     <p>- Java</p>

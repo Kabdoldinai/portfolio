@@ -50,6 +50,7 @@ export const Jobs = styled.div `
     margin-left: 1rem;
     display: flex;
   }
+  
 `
 
 export const Menu =styled.div `
@@ -68,4 +69,7 @@ export const Menu =styled.div `
       margin-top: 1rem;
     }
   }
+`
+export const Ml =styled.div `
+    margin-left: 1rem;
 `

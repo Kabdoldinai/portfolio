@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc57127-65fe-466d-87af-3c07f5ea8c28" name="Changes" comment="" />
+    <list default="true" id="3dc57127-65fe-466d-87af-3c07f5ea8c28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.style.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +46,7 @@
       <workItem from="1647844844245" duration="2625000" />
       <workItem from="1647875752143" duration="30180000" />
       <workItem from="1648399395878" duration="171000" />
-      <workItem from="1648399570489" duration="290000" />
+      <workItem from="1648399570489" duration="2866000" />
     </task>
     <servers />
   </component>
