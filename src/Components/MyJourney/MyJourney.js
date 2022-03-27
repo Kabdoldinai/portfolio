@@ -12,7 +12,7 @@ export default function MyJourney() {
                     <ul>
                         <Link to="/"><li>Main</li></Link>
                         <Link to="/resume"><li>Resume</li></Link>
-                        <li>MyJourney</li>
+                        <Link to="/myjourney"><li>MyJourney</li></Link>
                         <Link to="/projects">
                             <li>Projects
                                 <span className="white-circle red-cirlce"></span>
