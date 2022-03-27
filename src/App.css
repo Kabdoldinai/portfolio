@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: url('assets/background.png') no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+  margin: 0;
+}
+
