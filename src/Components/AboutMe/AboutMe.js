@@ -34,9 +34,9 @@ export default function AboutMe(){
                     </span>
                     <span className="line"></span>
                     <div className="sns">
-                        <img src={linkedin} width={40} height={40} alt=""/>
-                        <img src={github} width={40} height={40} alt=""/>
-                        <img src={email} width={40} height={40} alt=""/>
+                        <a href="https://www.linkedin.com/in/indira-kabdoldina-995336109/" target="_blank"><img src={linkedin} width={40} height={40} alt=""/></a>
+                        <a href="https://github.com/Kabdoldinai" target="_blank"><img src={github} width={40} height={40} alt=""/></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kabdoldinai@gmail.com" target="_blank"><img src={email} width={40} height={40} alt=""/></a>
                     </div>
                 </Menu>
             </Content>
