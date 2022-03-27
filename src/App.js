@@ -5,6 +5,7 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Resume from "./Components/Resume/Resume";
 import Projects from "./Components/Projects/Projects";
+import MyJourney from "./Components/MyJourney/MyJourney";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               <Route exact path="/aboutme" element={<AboutMe/>}></Route>
               <Route exact path="/resume" element={<Resume/>}></Route>
               <Route exact path="/projects" element={<Projects/>}></Route>
+              <Route exact path="/myjourney" element={<MyJourney/>}></Route>
           </Routes>
       </Router>
   );

@@ -10,7 +10,7 @@ export default function MainPage(){
                     <menu>
                         <ul>
                             <Link to="/resume"><li>Resume</li></Link>
-                            <li>MyJourney</li>
+                            <Link to="/myjourney"><li>MyJourney</li></Link>
                             <Link to="/projects">
                                 <li>Projects
                                     <span className="white-circle red-cirlce"></span>
