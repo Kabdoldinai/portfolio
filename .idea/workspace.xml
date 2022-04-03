@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc57127-65fe-466d-87af-3c07f5ea8c28" name="Changes" comment="&quot;added links&quot;">
+    <list default="true" id="3dc57127-65fe-466d-87af-3c07f5ea8c28" name="Changes" comment="&quot;added icon&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,8 @@
       <workItem from="1647844844245" duration="2625000" />
       <workItem from="1647875752143" duration="30180000" />
       <workItem from="1648399395878" duration="171000" />
-      <workItem from="1648399570489" duration="4742000" />
+      <workItem from="1648399570489" duration="5507000" />
+      <workItem from="1648980198077" duration="853000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add ml&quot;">
       <created>1648405819806</created>
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648407219234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;added icon&quot;">
+      <created>1648408001588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648408001588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +106,7 @@
     <MESSAGE value="&quot;add ml&quot;" />
     <MESSAGE value="&quot;fix&quot;" />
     <MESSAGE value="&quot;added links&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;added links&quot;" />
+    <MESSAGE value="&quot;added icon&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added icon&quot;" />
   </component>
 </project>

@@ -8,9 +8,6 @@ import stallions from "../../assets/Stallions.svg"
 import asiafreight from "../../assets/AsiaFreight.svg"
 import slexn from "../../assets/SLEXN.svg"
 import university from "../../assets/university.svg"
-import linkedin from "../../assets/linkedin.svg";
-import github from "../../assets/github.svg";
-import email from "../../assets/email.svg";
 import skills from "../../assets/skills.svg";
 import education from "../../assets/education.svg";
 import download from "../../assets/download.svg";
@@ -39,7 +36,7 @@ export default function Resume() {
                     <Line></Line>
                     <p>
                         Front-end developer with 2 years of experience working on building and maintaining web applications.
-                        freeCodeCamp certified. Working at top Fintech company, and voluntering in Malaysian  startup.
+                        freeCodeCamp certified. Working at top Fin-tech company, and volunteering in Malaysian  startup.
                     </p>
                 </Description>
                 <Experience>
@@ -113,7 +110,7 @@ export default function Resume() {
                         <div className="block">
                             <div><img src={slexn} width={30} height={200} alt=""/></div>
                             <div className="description">
-                                <span className="title">Software Developer</span>
+                                <span className="title">Sales Manager</span>
                                 <p>ArchitectGroup  ` Full-time</p>
                                 <p>Feb 2019 - Mar 2020 ` 1year 2months <br/> Almaty, Kazakhstan </p>
                                 <span>
