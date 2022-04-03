@@ -23,8 +23,8 @@ export default function AboutMe(){
                     <p>
                         I am Kabdoldina Indira, being originated from Central Asia, Kazakhstan.
                         I describe myself as a passionate developer who loves coding, solving and overcoming challenges.
-                        My experience includes building different kinds of websites, projects such as developing commericial
-                        chat, architecturing ERP system, and creating management dashboards and platforms. I like to discover
+                        My experience includes building different kinds of websites, projects such as developing commercial
+                        chat, architecting ERP system, and creating management dashboards and platforms. I like to discover
                         new technologies and find new ways to grow as a professional developer.
                     </p>
                 </About>

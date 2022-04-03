@@ -57,7 +57,7 @@ export default function Resume() {
                                     - Used technologies JavaScript, jQuery, Ajax, Fetch, EAI HTTP Transport, VueJS, Java, Unit Test (JUnit Framework) <br/>
                                     - PL/SQL <br/>
                                     - Version Control: Bitbucket <br/>
-                                    - Collaboration with team <br/>
+                                    - Collaboration with the team <br/>
                                 </span>
                             </div>
                         </div>
@@ -72,6 +72,7 @@ export default function Resume() {
                                     - Worked on backend project, using Go <br/>
                                     - Created a new module (designing architecture, making it user-friendly) <br/>
                                     - Wrote MSSQL queries
+                                    - Created interface by using ReactJS
                                 </span>
                             </div>
                         </div>
