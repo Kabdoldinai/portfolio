@@ -67,4 +67,8 @@ export const Content = styled.div `
     min-width: 150px;
     cursor: pointer;
   }
+  
+  header {
+    font-size: 2rem;
+  }
 `

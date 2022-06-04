@@ -126,7 +126,7 @@ export default function Resume() {
                             </div>
                         </div>
 
-                        <h2>Education</h2>
+                        <h2 id="education">Education</h2>
                         <div className="block">
                             <div className="university"><img src={university} width={40} height={40} alt=""/></div>
                             <div className="description">
@@ -135,7 +135,7 @@ export default function Resume() {
                                     International Relations & Computer Science </p>
                             </div>
                         </div>
-                        <h2>SKILLS</h2>
+                        <h2 id="skills">SKILLS</h2>
                         <div className="block">
                             <div className="university"><span>Languages</span></div>
                             <div className="skills">
@@ -173,9 +173,9 @@ export default function Resume() {
                     <Menu>
                         <span className="line"></span>
                         <div className="sns">
-                            <img src={skills} width={80} height={80} alt=""/>
-                            <img src={education} width={80} height={80} alt=""/>
-                            <img src={download} width={80} height={80} alt=""/>
+                            <a href="#skills"><img src={skills} width={80} height={80} alt=""/></a>
+                            <a href="#education"><img src={education} width={80} height={80} alt=""/></a>
+                            <a target="_blank" href="https://drive.google.com/file/d/1KHO3c5dSvBBTKYDIypo5alJtp5zDFI4k/view?usp=sharing"><img src={download} width={80} height={80} alt=""/></a>
                         </div>
                     </Menu>
                 </Experience>
