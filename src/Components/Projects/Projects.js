@@ -1,7 +1,16 @@
-import React from "react";
 import {Wrapper, Content} from "./Projects.style";
 import {Link} from "react-router-dom";
 import {Navbar} from "../MainPage/MainPage.style";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import insta from "../../assets/insta.png";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Projects() {
     return (
@@ -21,8 +30,27 @@ export default function Projects() {
                 </menu>
             </Navbar>
             <Content>
-                coming soon...
+                <Swiper
+                    spaceBetween={30}
+                    centeredSlides={true}
+                    autoplay={{
+                        delay: 2900,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Autoplay, Pagination, Navigation]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        <a target="_blank" href="https://drive.google.com/file/d/1KHO3c5dSvBBTKYDIypo5alJtp5zDFI4k/view?usp=sharing"><img src={insta} alt=""/></a>
+                        <span>Insta Clone project, used NextJS && Tailwind</span>
+                    </SwiperSlide>
+                </Swiper>
             </Content>
         </Wrapper>
     )
+
 }
