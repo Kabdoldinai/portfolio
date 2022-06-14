@@ -45,7 +45,7 @@ export default function Projects() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <a target="_blank" href="https://drive.google.com/file/d/1KHO3c5dSvBBTKYDIypo5alJtp5zDFI4k/view?usp=sharing"><img src={insta} alt=""/></a>
+                        <a target="_blank" href="https://github.com/Kabdoldinai/instagram_clone"><img src={insta} alt=""/></a>
                         <span>Insta Clone project, used NextJS && Tailwind</span>
                     </SwiperSlide>
                 </Swiper>
