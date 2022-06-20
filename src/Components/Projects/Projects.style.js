@@ -7,16 +7,20 @@ export const Wrapper = styled.div `
     flex-direction: column;
 `
 export const Content = styled.div `
+  display: flex;
+  
   .swiper {
     width: 1200px;
     height: 600px;
     margin-top: 2rem;
-    
+    justify-items: center;
+    align-items: center;
   }
 
   .swiper-slide {
     text-align: center;
     font-size: 18px;
+    color: #000;
     background: #fff;
     /* Center slide text vertically */
     display: -webkit-box;
@@ -31,15 +35,29 @@ export const Content = styled.div `
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    position: relative;
   }
 
   .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 50%;
     object-fit: cover;
   }
 
+  .swiper-slide span {
+    width: 80%;
+    margin-left: -14rem;
+    padding: 6rem;
+  }
+
+  .swiper-slide .git-logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    cursor: pointer;
+  }
   .swiper-button-next,
   .swiper-button-prev {
     background-color: white;
@@ -50,14 +68,28 @@ export const Content = styled.div `
     fill: black !important;
     stroke: black !important;
   }
-
-  span {
-    position: absolute;
-    background: #9f0b0b;
-    padding: 1rem;
-    border-radius: 6px;
-    width: 1000px;
-    top: 33rem;
+  
+  .container {
+    margin-top: 1rem;
+    background: #ffff;
+    height: 600px;
   }
 
+  .swiper-slide .copepend {
+    padding: 3rem;
+  }
+  
+`
+
+export const Menu =styled.div `
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  .line {
+    margin: 1rem 0.9rem;
+    border-left: 1px solid #fff;
+    height: 630px;
+    margin-left: 2rem;
+  }
+  
 `
